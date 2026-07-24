@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+// 1. Bootstrap the application
+$app = require_once __DIR__ . '/bootstrap/app.php';
+
+// 2. Initialize and handle Console Kernel command
+$kernel = new Trunk\Console\Kernel($app);
+$kernel->handle($argv);
