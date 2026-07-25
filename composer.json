@@ -2,6 +2,7 @@
     "name": "trunk/skeleton",
     "description": "A skeleton API application using the Trunk async PHP framework",
     "type": "project",
+    "license": "MIT",
     "require": {
         "php": ">=8.1",
         "trunk/core": "^0.1.0"
