@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7626fd427560cb9717a05a76a0c03f36",
+    "content-hash": "694c717cf91fe829e60e0ef30f3cc0ac",
     "packages": [
         {
             "name": "evenement/evenement",
@@ -1617,11 +1617,17 @@
         },
         {
             "name": "trunk/core",
-            "version": "dev-main",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pspepp3r/trunk.git",
+                "reference": "8f30e739d2f2496924199ff545106c8f1fd4b945"
+            },
             "dist": {
-                "type": "path",
-                "url": "../trunk",
-                "reference": "add4bc9a6b390f02e6ff1a3cc3752afecc1603ce"
+                "type": "zip",
+                "url": "https://api.github.com/repos/pspepp3r/trunk/zipball/8f30e739d2f2496924199ff545106c8f1fd4b945",
+                "reference": "8f30e739d2f2496924199ff545106c8f1fd4b945",
+                "shasum": ""
             },
             "require": {
                 "firebase/php-jwt": "^6.10 || ^7.0",
@@ -1643,31 +1649,23 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Trunk\\": "src/"
-                },
                 "files": [
                     "src/helpers.php"
-                ]
-            },
-            "autoload-dev": {
+                ],
                 "psr-4": {
-                    "Trunk\\Tests\\": "tests/"
+                    "Trunk\\": "src/"
                 }
             },
-            "scripts": {
-                "test": [
-                    "phpunit"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "description": "An async, API-centric PHP framework built on ReactPHP",
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/pspepp3r/trunk/issues",
+                "source": "https://github.com/pspepp3r/trunk/tree/0.1.0"
+            },
+            "time": "2026-07-24T23:51:56+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
