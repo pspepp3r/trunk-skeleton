@@ -1617,16 +1617,16 @@
         },
         {
             "name": "trunk/core",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pspepp3r/trunk.git",
-                "reference": "8f30e739d2f2496924199ff545106c8f1fd4b945"
+                "reference": "96934a3937b60093906eafa50c9a516fe61c8590"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pspepp3r/trunk/zipball/8f30e739d2f2496924199ff545106c8f1fd4b945",
-                "reference": "8f30e739d2f2496924199ff545106c8f1fd4b945",
+                "url": "https://api.github.com/repos/pspepp3r/trunk/zipball/96934a3937b60093906eafa50c9a516fe61c8590",
+                "reference": "96934a3937b60093906eafa50c9a516fe61c8590",
                 "shasum": ""
             },
             "require": {
@@ -1663,9 +1663,9 @@
             "description": "An async, API-centric PHP framework built on ReactPHP",
             "support": {
                 "issues": "https://github.com/pspepp3r/trunk/issues",
-                "source": "https://github.com/pspepp3r/trunk/tree/0.1.0"
+                "source": "https://github.com/pspepp3r/trunk/tree/0.1.1"
             },
-            "time": "2026-07-24T23:51:56+00:00"
+            "time": "2026-07-25T00:06:50+00:00"
         },
         {
             "name": "vlucas/phpdotenv",

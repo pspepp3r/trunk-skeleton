@@ -26,6 +26,7 @@ This pulls the skeleton straight from Packagist, installs dependencies, and copi
 Edit `.env` to set your database credentials, then:
 
 ```bash
+php trunk db:create
 php trunk migrate
 php trunk start
 ```
