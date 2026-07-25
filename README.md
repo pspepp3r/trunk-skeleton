@@ -17,16 +17,31 @@
 ## Setup
 
 ```bash
-composer install
-cp .env.example .env
+composer create-project trunk/skeleton my-app
+cd my-app
 ```
 
-Edit `.env`: set your database credentials and a `JWT_SECRET` of at least 32 bytes.
+This pulls the skeleton straight from Packagist, installs dependencies, and copies `.env.example` to `.env` with a fresh, randomly-generated `JWT_SECRET` already in place - no manual `key:generate` step needed.
+
+Edit `.env` to set your database credentials, then:
 
 ```bash
 php trunk migrate
 php trunk start
 ```
+
+<details>
+<summary>Setting up from a clone instead</summary>
+
+```bash
+git clone https://github.com/pspepp3r/trunk-skeleton my-app
+cd my-app
+composer install
+cp .env.example .env
+php trunk key:generate
+```
+
+</details>
 
 The API is now listening on `http://127.0.0.1:8080` (configurable via `APP_PORT`).
 
