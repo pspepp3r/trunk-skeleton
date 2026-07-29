@@ -2,12 +2,20 @@
 
 namespace App\Entities;
 
-use Trunk\ORM\Interface\EntityInterface;
+use Trunk\ORM\BaseEntity;
+use Trunk\Database\ORM\Attributes\Entity;
+use Trunk\Database\ORM\Attributes\Column;
 
-class User implements EntityInterface
+#[Entity(table: 'users')]
+class User extends BaseEntity
 {
+    #[Column(primary: true)]
     private ?int $id = null;
+    
+    #[Column(type: 'VARCHAR', length: 255)]
     private string $name;
+    
+    #[Column(type: 'VARCHAR', length: 255)]
     private string $email;
 
     public function getId(): ?int

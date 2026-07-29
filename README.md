@@ -27,8 +27,9 @@ Edit `.env` to set your database credentials, then:
 
 ```bash
 php trunk db:create
+php trunk orm:schema-diff
 php trunk migrate
-php trunk start
+php trunk start --watch
 ```
 
 <details>
