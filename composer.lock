@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "435b6e7b4a3f4ec5be9e13fc3e758590",
+    "content-hash": "7626d593ba51be20c42ec85f6ef40dbf",
     "packages": [
         {
             "name": "evenement/evenement",
@@ -1339,16 +1339,16 @@
         },
         {
             "name": "trunk/core",
-            "version": "v0.3.1",
+            "version": "v0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pspepp3r/trunk.git",
-                "reference": "844976387c13bbcc000462441679dbf3acaa3c12"
+                "reference": "133a0cc2ac2d7d7d96c19ee62331a233fa04bb4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pspepp3r/trunk/zipball/844976387c13bbcc000462441679dbf3acaa3c12",
-                "reference": "844976387c13bbcc000462441679dbf3acaa3c12",
+                "url": "https://api.github.com/repos/pspepp3r/trunk/zipball/133a0cc2ac2d7d7d96c19ee62331a233fa04bb4c",
+                "reference": "133a0cc2ac2d7d7d96c19ee62331a233fa04bb4c",
                 "shasum": ""
             },
             "require": {
@@ -1363,8 +1363,8 @@
                 "vlucas/phpdotenv": "^5.5"
             },
             "require-dev": {
-                "clue/reactphp-redis": "^2.6",
                 "clue/reactphp-sqlite": "^1.4",
+                "clue/redis-react": "^2.6",
                 "phpunit/phpunit": "^10.5",
                 "react/async": "^4.3",
                 "react/mysql": "^0.7 || ^0.8",
@@ -1372,8 +1372,8 @@
                 "webonyx/graphql-php": "^15.0"
             },
             "suggest": {
-                "clue/reactphp-redis": "Required to use Redis cache/connection",
                 "clue/reactphp-sqlite": "Required to use SQLite database connection",
+                "clue/redis-react": "Required to use Redis cache/connection",
                 "react/mysql": "Required to use MySQL database connection",
                 "voryx/pgasync": "Required to use PostgreSQL database connection",
                 "webonyx/graphql-php": "Required to build a GraphQL API"
@@ -1394,9 +1394,9 @@
             "description": "An async, API-centric PHP framework built on ReactPHP",
             "support": {
                 "issues": "https://github.com/pspepp3r/trunk/issues",
-                "source": "https://github.com/pspepp3r/trunk/tree/v0.3.1"
+                "source": "https://github.com/pspepp3r/trunk/tree/v0.4.0"
             },
-            "time": "2026-07-29T21:48:52+00:00"
+            "time": "2026-07-30T01:30:56+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
