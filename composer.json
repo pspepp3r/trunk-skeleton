@@ -5,7 +5,7 @@
 	"license": "MIT",
 	"require": {
 		"php": ">=8.1",
-		"trunk/core": "^0.3.0"
+		"trunk/core": "^0.4.0"
 	},
 	"minimum-stability": "dev",
 	"prefer-stable": true,

@@ -32,5 +32,11 @@ return [
                 'database' => $_ENV['DB_AUTHENTICATION_DATABASE'] ?? 'admin',
             ],
         ],
+
+        'sqlite' => [
+            // ':memory:' or an absolute/relative path to a .sqlite file. Requires
+            // clue/reactphp-sqlite: composer require clue/reactphp-sqlite
+            'database' => $_ENV['DB_DATABASE'] ?? database_path('database.sqlite'),
+        ],
     ],
 ];

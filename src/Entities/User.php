@@ -11,12 +11,15 @@ class User extends BaseEntity
 {
     #[Column(primary: true)]
     private ?int $id = null;
-    
+
     #[Column(type: 'VARCHAR', length: 255)]
     private string $name;
-    
+
     #[Column(type: 'VARCHAR', length: 255)]
     private string $email;
+
+    #[Column(type: 'VARCHAR', length: 255)]
+    private string $password;
 
     public function getId(): ?int
     {
@@ -41,5 +44,15 @@ class User extends BaseEntity
     public function setEmail(string $email): void
     {
         $this->email = $email;
+    }
+
+    public function getPassword(): string
+    {
+        return $this->password;
+    }
+
+    public function setPassword(string $hashedPassword): void
+    {
+        $this->password = $hashedPassword;
     }
 }
